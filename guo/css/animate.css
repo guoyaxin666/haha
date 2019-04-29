@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@keyframes lunbo1 {
+	from{
+		transform: translateZ(0px);
+	}
+	to{
+		transform: translateZ(-5000px);
+	}
+}
+.lunbo1{
+	animation: lunbo1 1s linear 0s 1 alternate forwards;
+}
+@keyframes lunbo2 {
+	from{
+		transform: translateZ(-5000px);
+	}
+	to{
+		transform: translateZ(0px);
+	}
+}
+.lunbo2{
+	animation: lunbo2 1s linear 0s 1 alternate forwards;
+}
